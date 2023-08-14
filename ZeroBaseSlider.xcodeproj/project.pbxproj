@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		342B73332A88DE780092C0E9 /* ZeroBaseSlider.docc in Sources */ = {isa = PBXBuildFile; fileRef = 342B73322A88DE780092C0E9 /* ZeroBaseSlider.docc */; };
 		342B73342A88DE780092C0E9 /* ZeroBaseSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 342B73312A88DE780092C0E9 /* ZeroBaseSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		342B733B2A88DEAF0092C0E9 /* ZeroBaseSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B733A2A88DEAF0092C0E9 /* ZeroBaseSlider.swift */; };
+		343F64682A8A18AF00667770 /* ZeroBaseSlider.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 343F64672A8A18AF00667770 /* ZeroBaseSlider.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		342B732E2A88DE780092C0E9 /* ZeroBaseSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZeroBaseSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		342B73312A88DE780092C0E9 /* ZeroBaseSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZeroBaseSlider.h; sourceTree = "<group>"; };
 		342B73322A88DE780092C0E9 /* ZeroBaseSlider.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ZeroBaseSlider.docc; sourceTree = "<group>"; };
+		342B733A2A88DEAF0092C0E9 /* ZeroBaseSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroBaseSlider.swift; sourceTree = "<group>"; };
+		343F64672A8A18AF00667770 /* ZeroBaseSlider.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZeroBaseSlider.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				342B73312A88DE780092C0E9 /* ZeroBaseSlider.h */,
+				342B733A2A88DEAF0092C0E9 /* ZeroBaseSlider.swift */,
+				343F64672A8A18AF00667770 /* ZeroBaseSlider.podspec */,
 				342B73322A88DE780092C0E9 /* ZeroBaseSlider.docc */,
 			);
 			path = ZeroBaseSlider;
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343F64682A8A18AF00667770 /* ZeroBaseSlider.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				342B73332A88DE780092C0E9 /* ZeroBaseSlider.docc in Sources */,
+				342B733B2A88DEAF0092C0E9 /* ZeroBaseSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +276,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -285,10 +293,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,7 +316,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -323,10 +333,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
