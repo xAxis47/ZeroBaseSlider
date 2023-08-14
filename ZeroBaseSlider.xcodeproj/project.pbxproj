@@ -11,6 +11,7 @@
 		342B73342A88DE780092C0E9 /* ZeroBaseSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 342B73312A88DE780092C0E9 /* ZeroBaseSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		342B733B2A88DEAF0092C0E9 /* ZeroBaseSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342B733A2A88DEAF0092C0E9 /* ZeroBaseSlider.swift */; };
 		343F64682A8A18AF00667770 /* ZeroBaseSlider.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 343F64672A8A18AF00667770 /* ZeroBaseSlider.podspec */; };
+		3440A9372A8A39030036580E /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3440A9362A8A39030036580E /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		342B73322A88DE780092C0E9 /* ZeroBaseSlider.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ZeroBaseSlider.docc; sourceTree = "<group>"; };
 		342B733A2A88DEAF0092C0E9 /* ZeroBaseSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroBaseSlider.swift; sourceTree = "<group>"; };
 		343F64672A8A18AF00667770 /* ZeroBaseSlider.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZeroBaseSlider.podspec; sourceTree = "<group>"; };
+		3440A9362A8A39030036580E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				342B73312A88DE780092C0E9 /* ZeroBaseSlider.h */,
 				342B733A2A88DEAF0092C0E9 /* ZeroBaseSlider.swift */,
+				3440A9362A8A39030036580E /* LICENSE.txt */,
 				342B73322A88DE780092C0E9 /* ZeroBaseSlider.docc */,
 				343F64672A8A18AF00667770 /* ZeroBaseSlider.podspec */,
 			);
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3440A9372A8A39030036580E /* LICENSE.txt in Resources */,
 				343F64682A8A18AF00667770 /* ZeroBaseSlider.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
