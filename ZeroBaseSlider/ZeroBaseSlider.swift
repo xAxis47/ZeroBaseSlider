@@ -227,7 +227,7 @@ public struct ZeroBaseSlider: View {
     
 }
 
-extension ZeroBaseSlider {
+public extension ZeroBaseSlider {
     
     private init(max: Double, min: Double, thumbValue: Binding<Double>, barWidth: CGFloat, isHideLimitValue: Bool, isHideThumbValue: Bool, isIntThumb: Bool, isSmoothDrag: Bool,  limitValueOffset: CGFloat, maxValueColor: Color, maxValueFont: Font,  minValueColor: Color, minValueFont: Font, sliderColor: Color, thumbColor: Color, thumbValueColor: Color, thumbValueFont: Font, valueColor: Color) {
         
