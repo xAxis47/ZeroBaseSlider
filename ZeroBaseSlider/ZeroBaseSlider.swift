@@ -31,7 +31,7 @@ public struct ZeroBaseSlider: View {
     private let maxValue: Double
     private let minValue: Double
     
-    init(barWidth: Double = UIScreen.main.bounds.width * 0.65, max: Double = 5, min: Double = -5, thumbValue: Binding<Double>) {
+    public init(barWidth: Double = UIScreen.main.bounds.width * 0.65, max: Double = 5, min: Double = -5, thumbValue: Binding<Double>) {
         
         self.barWidth = barWidth
         self.isHideLimitValue = false
