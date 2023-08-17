@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "ZeroBaseSlider"
-s.version      = "0.9"
+s.version      = "0.9.1"
 s.summary      = "ZeroBaseSlider can set 0."
 s.license      = { :type => "Apache License, Version 2.0" }
 s.homepage     = "https://github.com/xAxis47/ZeroBaseSlider"

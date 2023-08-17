@@ -264,109 +264,109 @@ public extension ZeroBaseSlider {
         
     }
 
-    public func isHideLimitValue(_ bool: Bool) -> Self {
+    func isHideLimitValue(_ bool: Bool) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: bool, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor, thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
 
     }
     
-    public func isHideThumbValue(_ bool: Bool) -> Self {
+    func isHideThumbValue(_ bool: Bool) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: bool, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor, thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
 
     }
     
-    public func isIntThumb(_ bool: Bool) -> Self {
+    func isIntThumb(_ bool: Bool) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: bool, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor, thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
 
     }
     
-    public func isSmoothDrag(_ bool: Bool) -> Self {
+    func isSmoothDrag(_ bool: Bool) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: bool, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor, thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
 
     }
     
-    public func limitValueOffset(_ offset: CGFloat) -> Self {
+    func limitValueOffset(_ offset: CGFloat) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min,  thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: offset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor,  thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor:  self.valueColor)
         
     }
     
-    public func maxValueColor(_ color: Color) -> Self {
+    func maxValueColor(_ color: Color) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: color, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor, thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
 
     }
     
-    public func maxValueFont(_ font: Font) -> Self {
+    func maxValueFont(_ font: Font) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min,  thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: font, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor,  thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
         
     }
     
-    public func maxValueFontWeight(_ weight: Font.Weight) -> Self {
+    func maxValueFontWeight(_ weight: Font.Weight) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: self.barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor, thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
 
     }
     
-    public func minValueColor(_ color: Color) -> Self {
+    func minValueColor(_ color: Color) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min,  thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: color, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor,  thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
         
     }
     
-    public func minValueFont(_ font: Font) -> Self {
+    func minValueFont(_ font: Font) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min,  thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: font, sliderColor: self.sliderColor, thumbColor: self.thumbColor,  thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
         
     }
     
-    public func minValueFontWeight(_ weight: Font.Weight) -> Self {
+    func minValueFontWeight(_ weight: Font.Weight) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: self.barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor, thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
 
     }
 
-    public func sliderColor(_ color: Color) -> Self {
+    func sliderColor(_ color: Color) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: self.barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: color, thumbColor: self.thumbColor, thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor:  self.valueColor)
         
     }
     
-    public func thumbColor(_ color: Color) -> Self {
+    func thumbColor(_ color: Color) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: self.barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: color, thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
         
     }
     
-    public func thumbValueColor(_ color: Color) -> Self {
+    func thumbValueColor(_ color: Color) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: self.barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor, thumbValueColor: color, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
         
     }
     
-    public func thumbValueFont(_ font: Font) -> Self {
+    func thumbValueFont(_ font: Font) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor, thumbValueColor: self.thumbValueColor, thumbValueFont: font, valueColor: self.valueColor)
         
     }
     
-    public func thumbValueFontWeight(_ weight: Font.Weight) -> Self {
+    func thumbValueFontWeight(_ weight: Font.Weight) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor, thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: self.valueColor)
 
     }
     
-    public func valueColor(_ color: Color) -> Self {
+    func valueColor(_ color: Color) -> Self {
         
         ZeroBaseSlider(max: self.max, min: self.min, thumbValue: self._thumbValue, barWidth: barWidth, isHideLimitValue: self.isHideLimitValue, isHideThumbValue: self.isHideThumbValue, isIntThumb: self.isIntThumb, isSmoothDrag: self.isSmoothDrag, limitValueOffset: self.limitValueOffset, maxValueColor: self.maxValueColor, maxValueFont: self.maxValueFont, minValueColor: self.minValueColor, minValueFont: self.minValueFont, sliderColor: self.sliderColor, thumbColor: self.thumbColor, thumbValueColor: self.thumbValueColor, thumbValueFont: self.thumbValueFont, valueColor: color)
         
     }
     
-    func initialOperation(min: Double, max: Double, thumbValue: Binding<Double>) -> (thumbPosition: State<Double>, zeroPosition: State<Double>, leftBarPosition: State<Double>, valueWidth: State<Double>) {
+    private func initialOperation(min: Double, max: Double, thumbValue: Binding<Double>) -> (thumbPosition: State<Double>, zeroPosition: State<Double>, leftBarPosition: State<Double>, valueWidth: State<Double>) {
         
         let thumbPosition: State<Double>
         let zeroPosition: State<Double>
